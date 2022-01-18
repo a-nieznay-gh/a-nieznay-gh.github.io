@@ -20,8 +20,11 @@ body {
   font-family: 'Merriweather', sans-serif;
   color: #343a40;
   background-color: #f1f1f1;
-  min-width: 54rem;
+  /* min-width: 54rem; */
   /* border-bottom: 16px solid #343a40; */
+
+  display: flex;
+  flex-direction: column;
 }
 
 hr {
@@ -36,10 +39,11 @@ hr {
 }
 
 .splash {
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 4.8rem;
 }
 
 h1 {
@@ -90,7 +94,7 @@ li {
   border-radius: 50%;
 }
 
-/* CONTACT */
+/* INFO */
 
 .resume {
   margin-bottom: 2rem;
@@ -168,8 +172,8 @@ li {
 /* FOOTER  */
 
 footer {
-  background-color: white;
-  padding: 6.4rem 0;
+  /* background-color: white; */
+  padding: 0 3.2rem 6.4rem 3.2rem;
 }
 
 .copyright {
