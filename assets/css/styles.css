@@ -70,6 +70,20 @@ li {
   list-style: none;
 }
 
+/* PORTRAIT */
+
+.portrait {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 9.6rem;
+}
+
+.portrait img {
+  height: 12rem;
+  width: 12rem;
+  border-radius: 50%;
+}
+
 /* CONTACT */
 
 .resume {
