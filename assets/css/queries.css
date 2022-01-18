@@ -5,14 +5,54 @@ instead, 1rem = 1em = 16px */
  queries, so use em */
 
 /**************************************/
-/* XS -- BELOW 576 */
+/* L -- BELOW 1200 */
 /**************************************/
 
-/* 576px / 16px = 36 */
-@media (max-width: 36em) {
+/* 1200px / 16px = 75 */
+@media (max-width: 75em) {
+}
+
+/**************************************/
+/* M -- BELOW 992 */
+/**************************************/
+
+/* 992px / 16px = 62 */
+@media (max-width: 62em) {
   h1 {
-    font-size: 4.8rem;
+    font-size: 5.4rem;
+  }
+}
+
+/**************************************/
+/* S -- BELOW 768 */
+/**************************************/
+
+/* 768px / 16px = 48 */
+@media (max-width: 48em) {
+  .container {
+    padding: 2rem;
+  }
+
+  .splash {
+    height: 100vh;
+    justify-content: flex-start;
+  }
+
+  h1 {
+    font-size: 5rem;
     text-align: center;
+  }
+
+  h3 {
+    font-size: 3.2rem;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: hidden;
+  }
+
+  .copyright {
+    font-size: 1.6rem;
   }
 
   .resume {
@@ -34,45 +74,13 @@ instead, 1rem = 1em = 16px */
 }
 
 /**************************************/
-/* S -- BELOW 768 */
+/* XS -- BELOW 576 */
 /**************************************/
 
-/* 768px / 16px = 48 */
-@media (max-width: 48em) {
-  .container {
-    padding: 2rem;
+/* 576px / 16px = 36 */
+@media (max-width: 36em) {
+  h1 {
+    font-size: 4.2rem;
+    text-align: center;
   }
-
-  .splash {
-    height: 100vh;
-    justify-content: flex-start;
-  }
-
-  h3 {
-    font-size: 3.2rem;
-  }
-
-  .tooltip:hover .tooltiptext {
-    visibility: hidden;
-  }
-
-  .copyright {
-    font-size: 1.6rem;
-  }
-}
-
-/**************************************/
-/* M -- BELOW 992 */
-/**************************************/
-
-/* 992px / 16px = 62 */
-@media (max-width: 62em) {
-}
-
-/**************************************/
-/* L -- BELOW 1200 */
-/**************************************/
-
-/* 1200px / 16px = 75 */
-@media (max-width: 75em) {
 }
