@@ -17,7 +17,7 @@ ion-icon {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   color: #343a40;
   background-color: #f1f1f1;
   /* min-width: 54rem; */
@@ -48,10 +48,10 @@ hr {
 
 h1 {
   display: block;
-  /* color: #343a40; */
-  color: #343a40;
-  /* background-color: #343a40; */
-  /* padding: 1rem 2rem; */
+  /* color: #a61e4d; */
+  color: #f1f1f1;
+  background-color: #a61e4d;
+  padding: 1rem 2rem;
   margin-bottom: 4.8rem;
   font-size: 6.4rem;
 }
@@ -108,7 +108,7 @@ li {
 .social-icon {
   width: 4rem;
   height: 4rem;
-  color: #343a40;
+  color: #a61e4d;
 }
 
 /* LINKS & BUTTONS */
@@ -116,9 +116,9 @@ li {
 .link:link,
 .link:visited {
   display: inline-block;
-  color: #343a40;
+  color: #a61e4d;
   text-decoration: none;
-  border-bottom: 2px solid #343a40;
+  border-bottom: 2px solid #a61e4d;
   transition: all 0.3s;
 }
 
