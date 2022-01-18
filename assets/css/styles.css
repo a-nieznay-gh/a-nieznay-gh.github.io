@@ -23,6 +23,11 @@ body {
   /* border-bottom: 16px solid #343a40; */
 }
 
+hr {
+  border: 1px dashed rgba(52, 58, 64, 0.1);
+  margin-bottom: 6.4rem;
+}
+
 .container {
   width: 96rem;
   padding: 8rem;
@@ -158,4 +163,17 @@ li {
   border-width: 5px;
   border-style: solid;
   border-color: transparent transparent rgba(0, 0, 0, 0.7) transparent;
+}
+
+/* FOOTER  */
+
+footer {
+  box-shadow: inset 0 1.2rem 3.2rem rgba(0, 0, 0, 0.2);
+  background-color: #343a40;
+  /* padding-top: 6.4rem; */
+}
+
+.copyright {
+  text-align: center;
+  color: #f1f1f1;
 }
