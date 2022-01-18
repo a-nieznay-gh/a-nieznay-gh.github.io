@@ -55,6 +55,10 @@ instead, 1rem = 1em = 16px */
   .tooltip:hover .tooltiptext {
     visibility: hidden;
   }
+
+  .copyright {
+    font-size: 1.6rem;
+  }
 }
 
 /**************************************/
