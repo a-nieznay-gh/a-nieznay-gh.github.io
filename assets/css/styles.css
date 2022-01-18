@@ -20,6 +20,7 @@ body {
   font-family: 'Merriweather', sans-serif;
   color: #343a40;
   background-color: #f1f1f1;
+  min-width: 54rem;
   /* border-bottom: 16px solid #343a40; */
 }
 
@@ -29,7 +30,7 @@ hr {
 }
 
 .container {
-  width: 96rem;
+  max-width: 96rem;
   padding: 8rem;
   margin: 0 auto;
 }
@@ -98,7 +99,6 @@ li {
 .social-links {
   display: flex;
   gap: 0.5rem;
-  /* justify-content: right; */
 }
 
 .social-icon {
